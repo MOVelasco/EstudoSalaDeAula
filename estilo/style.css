@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    width: 760px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgb(231, 134, 7);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    margin:0;
+    /* Isto é um comentário em CSS*/
+    color: rgb(0, 0, 255);
+    /* color: rgb(0, 0, 255, 0.5); */
+    /* color: #0000FF; hexadecimal */
+}
+
+h2 {
+    font-size: 40px;
+}
