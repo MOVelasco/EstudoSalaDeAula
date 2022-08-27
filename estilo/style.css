@@ -83,15 +83,19 @@ aside {
 }
 
 li{
-    background-color: blue;
-    list-style-type: none;
+    background-color: var(--cor-azul);
+    /* list-style-type: none;
     display: block;
-    /* padding: 10px; */
+    padding: 0;
+    height: 40px;
+    width: 40px; 
+    */
 }
 
-li a {
+
+nav ul li a {
     display: block;
-    color: rgb(233, 221, 221);
+    color: var(--cor-secundaria);
     padding: 10px;
     text-decoration: none;
     text-transform: bold;
@@ -138,6 +142,10 @@ footer{
     /* color: #0000FF; hexadecimal */
 }
 
+img{
+    width: 100%
+}
+
 .vermelho{
     color: red;
 }
@@ -147,3 +155,23 @@ footer{
     font-size: 18px;
     text-align: center;
 }
+
+ul{
+    background-color: var(--cor-azul);
+}
+
+.icones-sociais li{
+    background-color: var(--cor-azul);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 10px;
+}
+.icones-sociais a{
+    background-image: url(img/github.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: white;
+ }
