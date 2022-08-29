@@ -57,6 +57,10 @@ h2 {
     font-size: 40px;
 }
 
+p{
+    text-indent: 50px;
+}
+
 figure{
     width: 19.4%;
     position: absolute;
@@ -169,9 +173,24 @@ ul{
     margin-left: 10px;
 }
 .icones-sociais a{
-    background-image: url(img/github.png);
+    /* background-image: url(../img/github.png); */
     width: 40px;
     height: 40px;
     display: inline-block;
     color: white;
+    text-indent: -9999px;
+    /* font-size: 0; */
+    /* color: rgba(0,0,0,0); */
+ }
+
+ .github{
+     background-image: url(../img/github.png);
+ }
+
+ .linkedin{
+     background-image: url(../img/linkedin.png);
+ }
+
+ .twitter{
+     background-image: url(../img/twitter.png)
  }
