@@ -14,14 +14,32 @@
 
 body{
     font-family: Roboto, sans-serif;
+    background-color: var(--cor-de-fundo);
+}
+
+header{
+    background-color: var(--cor-de-fundo);
+    height: 150px;
     width: 1024px;
     margin: auto;
-    background-color: var(--cor-de-fundo);
+    position: relative;
+}
+
+header nav{
+    width: 1024px;
+    position: absolute;
+    bottom: 0;
+}
+
+header nav ul li{
+    display: inline-block;
 }
 
 main{
     background-color: var(--cor-secundaria);
     text-align: justify;
+    width: 1024px;
+    margin: auto;
     /* margin: 20px; */
     padding: 20px;
     position: relative;
@@ -61,6 +79,10 @@ p{
     text-indent: 50px;
 }
 
+ul, ol {
+    list-style: none;
+}
+
 figure{
     width: 19.4%;
     position: absolute;
@@ -95,7 +117,6 @@ li{
     width: 40px; 
     */
 }
-
 
 nav ul li a {
     display: block;
@@ -160,8 +181,11 @@ img{
     text-align: center;
 }
 
-ul{
+aside, nav, ul{
     background-color: var(--cor-azul);
+    /* todos os atributos de lista */
+    /* só o atributo tipo */
+    /* list-style-type: none; */
 }
 
 .icones-sociais li{
@@ -179,7 +203,7 @@ ul{
     display: inline-block;
     color: white;
     text-indent: -9999px;
-    /* font-size: 0; */
+    /* font-size: 0 !important; */
     /* color: rgba(0,0,0,0); */
  }
 
