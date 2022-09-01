@@ -11,18 +11,19 @@
     --cor-hover: rgb(223, 122, 44);
 }
 
-nav{
+nav {
     background-color: var(--cor-fundo);
+
 }
 
 nav ul {
-    max-width: 800px;
+    list-style-type: none;
+    max-width: 900px;
     margin: auto;
-    background-color: var(--cor-fundo);
 }
 
-ol, ul{
-    list-style-type: none;
+nav ul:last-child {
+    background-color: var(--cor-fundo);
 }
 
 nav ul li {
@@ -31,24 +32,20 @@ nav ul li {
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
     color: var(--cor-principal);
-    transition: 0.6s;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
 }
 
-nav ul li a:hover {
-    background-color: var(--cor-hover);
-}
-
-nav ul li:last-child a{
+nav ul li:last-child a {
     float: right;
     background-color: chocolate;
 }
 
-nav ul:last-child{
-    background-color: var(--cor-fundo);
+nav ul li a:hover {
+    background-color: var(--cor-hover);
+    transition: .6s;
 }
 
 /* Submenu */
@@ -61,4 +58,9 @@ nav ul ul {
 nav ul li:hover ul {
     display: block;
     position: absolute;
+}
+
+nav ul ul li a {
+    display: block;
+    /* width: 150px; */
 }
