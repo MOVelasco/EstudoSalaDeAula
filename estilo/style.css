@@ -57,6 +57,22 @@ input[type=text]{
     color: var(--cor-secundaria);
 }
 
+#carrinho{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: none;
+    border: none;
+}
+
+#cliente{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    background-color: none;
+    border: none;
+ }
+
 header nav{
     width: 1024px;
     position: absolute;
