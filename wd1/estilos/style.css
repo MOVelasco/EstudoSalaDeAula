@@ -51,9 +51,18 @@ h2{
     font-weight: bold;
 }
 
+img{
+    filter: grayscale(100%);
+}
+
 .imgLeft{
     float: left;
     margin-right: 10px;
+}
+
+.imgRight{
+    float: right;
+    margin-left: 10px;
 }
 
 p{
@@ -65,4 +74,25 @@ footer{
     height: 40px;
     background-color: #999;
     margin-top: 10px;
+}
+
+input {
+    width: 250px;
+    border: none;
+    background-color: #ccc;
+}
+
+input[type=submit]{
+    width: 90px;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+}
+
+textarea{
+	border: none;
+	background-color: #CCC;
+	width: 350px;
+	height: 120px;
+	resize: none;		
 }
