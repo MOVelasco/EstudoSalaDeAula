@@ -114,3 +114,7 @@ nav ul li:hover ul {
     display: block;
     position: absolute;
 }
+
+nav ul ul a{
+    width: 100%;
+}
